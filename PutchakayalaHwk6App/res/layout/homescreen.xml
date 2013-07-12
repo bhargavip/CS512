@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnconfig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ConfigurePreferences"
+        android:textColor="@android:color/holo_green_dark"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnretieve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retrieveassignmentlistfromserver"
+        android:textColor="@android:color/holo_green_dark"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnmanage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manageassignments"
+        android:textColor="@android:color/holo_green_dark"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
